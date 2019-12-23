@@ -31,6 +31,5 @@ Using Wireshark for packet capture and a Firefox browser to access the router ma
 
 Here we can see three different Virtual Machines connecting in the same networking
 
-![Access]!(https://user-images.githubusercontent.com/home/littledaddy/Hacking/Access.mp4)
 
 
