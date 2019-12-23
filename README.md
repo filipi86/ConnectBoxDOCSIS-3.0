@@ -33,5 +33,5 @@ Here we can see three different Virtual Machines connecting in the same networki
 
 **Access in the environment**
 
-<iframe src="https://player.vimeo.com/video/381213952" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 
