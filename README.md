@@ -4,7 +4,7 @@ The Connect Box is the worldwide most compact EuroDOCSIS 3.0 Voice Gateway which
 
 It can be used in households with one or more computers capable of wireless connectivity for remote access to the wireless gateway.
 
-=======================================================================================================================
+================================================================
 Exploiting Router Connect Box EuroDOCSIS 3.0 Voice Gateway
 
 This is a Proof of Concept on how to get the Connect Box DOCSIS 3.0 Voice Gateway router admin credentials when sniffing the HTTP traffic packets.
@@ -15,35 +15,10 @@ Using Wireshark for packet capture and a Firefox browser to access the router ma
 Victim 1
 
 
-  
-  
-  
-  
-
-
-
 Victim 2
 
 
-  
-  
-  
-  
-
-
-
 Attacker  
-
-
-
-  
-  
-  
-  
-
-
-
-
 
 
 
