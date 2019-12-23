@@ -1,5 +1,7 @@
 # ConnectBoxDOCSIS-3.0
 
+![connect_box_1_modem](https://user-images.githubusercontent.com/31785433/71375371-48959d00-25be-11ea-99fc-6b23375f89c6.png)
+
 The Connect Box is the worldwide most compact EuroDOCSIS 3.0 Voice Gateway which provides the ideal all-in-one wired and wireless solution, designed for your home, home office, or small business/enterprise.
 
 It can be used in households with one or more computers capable of wireless connectivity for remote access to the wireless gateway.
