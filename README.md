@@ -13,13 +13,6 @@ This is router that it was tested is in Poland by UPC internet service provider 
 
 Using Wireshark for packet capture and a Firefox browser to access the router management panel, it was possible to realize that admin credentials were passed in clear text, and not applied nothing of security, we could said the simple Basic Authentication (ie.Base64-encoded), as shown in the images below:
 
-<b>Victim 1
-(https://github.com/filipi86/ConnectBoxDOCSIS-3.0/blob/master/Victim1.png)
-
-![Victim 2] 
-
-
-Attacker  
-
+![Victim1](https://user-images.githubusercontent.com/31785433/71374644-bf7d6680-25bb-11ea-853f-44db27933398.png)
 
 
