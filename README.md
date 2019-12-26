@@ -6,9 +6,17 @@ The Connect Box is the worldwide most compact EuroDOCSIS 3.0 Voice Gateway which
 
 It can be used in households with one or more computers capable of wireless connectivity for remote access to the wireless gateway.
 
-========================================================================
+============================================================================
 
-**Exploiting Router Connect Box EuroDOCSIS 3.0 Voice Gateway**
+**Exploiting Connect Box EuroDOCSIS 3.0 Voice Gateway CH7465LG-NCIP-6.12.18.25-2p6-NOSH**
+
+**CVE-2019-19967** - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19967
+
+**Description**
+
+The Administration page on Connect Box EuroDOCSIS 3.0 Voice Gateway CH7465LG-NCIP-6.12.18.25-2p6-NOSH devices accepts a cleartext password in a POST request on port 80, as demonstrated by the Password field to the xml/setter.xml URI. 
+
+============================================================================
 
 This is a Proof of Concept on how to get the Connect Box DOCSIS 3.0 Voice Gateway router admin credentials when sniffing the HTTP traffic packets.
 This is router that it was tested is in Poland by UPC internet service provider but we know this company provides service in many outher country in EU.
