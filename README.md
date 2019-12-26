@@ -1,13 +1,5 @@
 # ConnectBoxDOCSIS-3.0
 
-![connect_box_1_modem](https://user-images.githubusercontent.com/31785433/71375371-48959d00-25be-11ea-99fc-6b23375f89c6.png)
-
-The Connect Box is the worldwide most compact EuroDOCSIS 3.0 Voice Gateway which provides the ideal all-in-one wired and wireless solution, designed for your home, home office, or small business/enterprise.
-
-It can be used in households with one or more computers capable of wireless connectivity for remote access to the wireless gateway.
-
-============================================================================
-
 **Exploiting Connect Box EuroDOCSIS 3.0 Voice Gateway CH7465LG-NCIP-6.12.18.25-2p6-NOSH**
 
 **CVE-2019-19967** - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19967
@@ -15,6 +7,16 @@ It can be used in households with one or more computers capable of wireless conn
 **Description**
 
 The Administration page on Connect Box EuroDOCSIS 3.0 Voice Gateway CH7465LG-NCIP-6.12.18.25-2p6-NOSH devices accepts a cleartext password in a POST request on port 80, as demonstrated by the Password field to the xml/setter.xml URI. 
+
+============================================================================
+
+# ConnectBoxDOCSIS-3.0
+
+![connect_box_1_modem](https://user-images.githubusercontent.com/31785433/71375371-48959d00-25be-11ea-99fc-6b23375f89c6.png)
+
+The Connect Box is the worldwide most compact EuroDOCSIS 3.0 Voice Gateway which provides the ideal all-in-one wired and wireless solution, designed for your home, home office, or small business/enterprise.
+
+It can be used in households with one or more computers capable of wireless connectivity for remote access to the wireless gateway.
 
 ============================================================================
 
