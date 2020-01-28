@@ -62,14 +62,23 @@ Here, we can see, a pcap file receive in kali linux machine, when we can open in
 
 
 **References** 
+
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19967 
+
 https://nvd.nist.gov/vuln/detail/CVE-2019-19967 
+
 https://github.com/filipi86/ConnectBoxDOCSIS-3.0 
+
 RFC 2660 - https://tools.ietf.org/html/rfc2660 
+
 RFC 7231 - https://tools.ietf.org/html/rfc7231 
+
 RFC 2818 - https://tools.ietf.org/html/rfc2818 
+
 RFC 2612 - https://tools.ietf.org/html/rfc2616 
-http://cwe.mitre.org/data/definitions/319.html 0
+
+http://cwe.mitre.org/data/definitions/319.html 
+
 Official Document form UPC  -  https://www.upc.ch/pdf/support/manuals/en/internet/ConnectBox/connect-box-manual.pdf  
 
 
