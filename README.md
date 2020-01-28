@@ -3,6 +3,7 @@
 **Exploiting Connect Box EuroDOCSIS 3.0 Voice Gateway CH7465LG-NCIP-6.12.18.25-2p6-NOSH**
 
 **CVE-2019-19967** - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19967
+
 **National Vulnerability Database - NVD** - https://nvd.nist.gov/vuln/detail/CVE-2019-19967
 
 **Description**
@@ -61,6 +62,10 @@ Here, we can see, a pcap file receive in kali linux machine, when we can open in
 
 [![Access](https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F841858337_1280x720.jpg&src1=https%3A%2F%2Ff.vimeocdn.com%2Fimages_v6%2Fshare%2Fplay_icon_overlay.png)](https://vimeo.com/381213980)
 
+
+**Manufacturer**
+
+After discovering this flaw, we communicated(31/12/2020) the manufacturer about it, which put us in contact with the development team to assist in the improvement process (last update 27/01/2020)
 
 **References** 
 
