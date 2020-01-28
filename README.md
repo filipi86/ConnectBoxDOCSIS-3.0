@@ -3,6 +3,7 @@
 **Exploiting Connect Box EuroDOCSIS 3.0 Voice Gateway CH7465LG-NCIP-6.12.18.25-2p6-NOSH**
 
 **CVE-2019-19967** - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19967
+**National Vulnerability Database - NVD** - https://nvd.nist.gov/vuln/detail/CVE-2019-19967
 
 **Description**
 
