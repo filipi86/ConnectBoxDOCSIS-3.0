@@ -20,9 +20,9 @@ It can be used in households with one or more computers capable of wireless conn
 
 ============================================================================
 
-This is a Proof of Concept on how to get the Connect Box DOCSIS 3.0 Voice Gateway router admin credentials when sniffing the HTTP traffic packets.
-This is router that it was tested is in Poland by UPC internet service provider but we know this company provides service in many outher country in EU.
-
+The purpose of this exploration is to validate the security applied to the standard implementation of the router, as well as to guarantee the application of the main security models, whether in a home user or in a corporate environment.
+We performed this proof of concept to get obtain the administrator credentials of the Connect Box DOCSIS 3.0 Voice Gateway router, it was possible to successfully perform, when sniffing the HTTP traffic packets, within the same tested network, when we perform some tests we discover a vulnerability in this router in the Authentication process known as Cleartext Transmission of Sensitive Information.
+After discovering this flaw, we communicated the manufacturer about it, which put us in contact with the development team to assist in the improvement process, we also registered this failure through CVE - CVE-2019-19967 
 Using Wireshark for packet capture and a Firefox browser to access the router management panel, it was possible to realize that admin credentials were passed in clear text, and not applied nothing of security, we could said the simple Basic Authentication (ie.Base64-encoded), as shown in the images below:
 
 **Victim 1**
@@ -49,7 +49,7 @@ In this video below, We can see the all Attacker Machine using **Wireshark** to 
 
 **WireShark**
 
-Here, as we can see, we try acess with the password "admin", however we receive the "login incorrect", but when tha victim machine try to connect with the correct login, the wireshark receive the passaword in **plan text** as we can see.
+Here, as we can see, we try acess with the password "admin", however we receive the "login incorrect", but when tha victim machine try to connect with the correct login, the wireshark receive the passaword in **clear text** as we can see.
 
 [![Wiresharl](https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F841858347_1280x720.jpg&src1=https%3A%2F%2Ff.vimeocdn.com%2Fimages_v6%2Fshare%2Fplay_icon_overlay.png)](https://vimeo.com/381213996)
 
@@ -61,5 +61,15 @@ Here, we can see, a pcap file receive in kali linux machine, when we can open in
 [![Access](https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F841858337_1280x720.jpg&src1=https%3A%2F%2Ff.vimeocdn.com%2Fimages_v6%2Fshare%2Fplay_icon_overlay.png)](https://vimeo.com/381213980)
 
 
+**References** 
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19967 
+https://nvd.nist.gov/vuln/detail/CVE-2019-19967 
+https://github.com/filipi86/ConnectBoxDOCSIS-3.0 
+RFC 2660 - https://tools.ietf.org/html/rfc2660 
+RFC 7231 - https://tools.ietf.org/html/rfc7231 
+RFC 2818 - https://tools.ietf.org/html/rfc2818 
+RFC 2612 - https://tools.ietf.org/html/rfc2616 
+http://cwe.mitre.org/data/definitions/319.html 0
+Official Document form UPC  -  https://www.upc.ch/pdf/support/manuals/en/internet/ConnectBox/connect-box-manual.pdf  
 
 
