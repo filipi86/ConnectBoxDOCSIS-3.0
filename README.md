@@ -65,7 +65,9 @@ Here, we can see, a pcap file receive in kali linux machine, when we can open in
 
 **Manufacturer**
 
-After discovering this flaw, we communicated(31/12/2020) the manufacturer about it, which put us in contact with the development team to assist in the improvement process (last update 27/01/2020)
+After discovering this flaw, we communicated(31/12/2020) the manufacturer about it, which put us in contact with the development team to assist in the improvement process (27/01/2020)
+LASTUPDATE - 24/02/2020 by Manufacture
+"What I can tell you is that this issue was discovered previously...but is hard to say when this will be fixed as the real vulnerability of this risk is very low"
 
 **References** 
 
