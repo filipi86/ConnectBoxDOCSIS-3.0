@@ -69,6 +69,13 @@ After discovering this flaw, we communicated(31/12/2020) the manufacturer about 
 LASTUPDATE - 24/02/2020 by Manufacture
 "What I can tell you is that this issue was discovered previously...but is hard to say when this will be fixed as the real vulnerability of this risk is very low"
 
+**Publications** 
+
+https://pentestmag.com/product/pentest-build-your-own-pentest-lab-in-2020/
+
+https://www.linkedin.com/feed/update/urn:li:activity:6633366352042307585/
+
+
 **References** 
 
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19967 
