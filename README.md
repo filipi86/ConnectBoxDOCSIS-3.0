@@ -75,6 +75,7 @@ https://pentestmag.com/product/pentest-build-your-own-pentest-lab-in-2020/
 
 https://www.linkedin.com/feed/update/urn:li:activity:6633366352042307585/
 
+https://medium.com/@filipi86/router-exploiting-6ddd0aed2ddf
 
 **References** 
 
